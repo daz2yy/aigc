@@ -1,2 +1,5 @@
 openai
 plotly
+backoff
+gradio
+sklearn

@@ -18,4 +18,6 @@
       `GET https://api.openai.com/v1/models/{model}`
     - 
 
+## 资料
+https://github.com/xuwenhao/geektime-ai-course
 
