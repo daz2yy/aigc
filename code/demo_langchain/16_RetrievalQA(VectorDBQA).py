@@ -15,7 +15,7 @@ llm = OpenAI(temperature=0)
 loader = TextLoader('./data/CS_问答集_BP_0329_prepared.txt')
 documents = loader.load()
 # text_splitter = SpacyTextSplitter(chunk_size=256, pipeline="zh_core_web_sm")
-text_splitter = SpacyTextSplitter(chunk_size=256)
+text_splitter = SpacyTextSplitter(chunk_size=2048)
 texts = text_splitter.split_documents(documents)
 
 embeddings = OpenAIEmbeddings()
